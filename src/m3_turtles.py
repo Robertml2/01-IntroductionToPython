@@ -163,7 +163,7 @@ roger.right(600)
 #     2. Choose  Commit  from the pull-down menu that appears.
 #     3. In the  Commit Changes  window that pops up:
 #          - HOVER over the  Commit  button
-#              (in the lower-right corner of the window)
+#              (in the lower-right corner of the window
 #          - CLICK on  Commit and Push.
 #
 #   You can COMMIT-and-PUSH as often as you like.  DO IT FREQUENTLY.
