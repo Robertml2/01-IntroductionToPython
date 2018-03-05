@@ -27,3 +27,21 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #
 #   Don't forget to COMMIT-and-PUSH when you are done with this module.
 ###############################################################################
+
+import rosegraphics as rg
+
+rg.SimpleTurtle()
+
+River = rg.SimpleTurtle()
+Rosie = rg.SimpleTurtle()
+Scum = rg.SimpleTurtle()
+River.pen = rg.Pen('blue','10')
+Rosie.pen = rg.Pen('red','5')
+Scum.pen = rg.Pen('black','8')
+
+size = 400
+for k in range(15):
+    River
+
+
+window.close_on_mouse_click()
