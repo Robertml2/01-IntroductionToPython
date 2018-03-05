@@ -105,6 +105,12 @@ natasha.forward(50)
 natasha.speed = 15
 natasha.forward(200)
 
+roger = rg.SimpleTurtle()
+roger.speed = 8
+roger.pen = rg.Pen('blue',10)
+roger.forward(40)
+roger.backward(150)
+roger.right(600)
 ###############################################################################
 #
 # DONE: 4.
@@ -121,7 +127,7 @@ natasha.forward(200)
 
 ###############################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       dave    matt
@@ -148,7 +154,7 @@ natasha.forward(200)
 
 ###############################################################################
 #
-# TODO: 6.
+# DONE: 6.
 #   Run one more time to be sure that all is still OK.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #
