@@ -10,7 +10,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 ###############################################################################
 
 ###############################################################################
-# TODO: 2.
+# DONE: 2.
 #   You should have RUN the  m4e_loopy_turtles  module and READ its code.
 #   (Do so now if you have not already done so.)
 #
@@ -41,8 +41,8 @@ river.pen = rg.Pen('blue', 10)
 rosie.pen = rg.Pen('red', 9)
 scum.pen = rg.Pen('black', 8)
 river.speed = 100000
-scum.speed = 1000000
-rosie.speed = 1000000
+scum.speed = 100000
+rosie.speed = 100000
 
 size = 50
 for k in range(25):
