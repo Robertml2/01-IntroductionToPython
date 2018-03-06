@@ -29,19 +29,51 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 ###############################################################################
 
 import rosegraphics as rg
+window = rg.TurtleWindow()
+
 
 rg.SimpleTurtle()
 
-River = rg.SimpleTurtle()
-Rosie = rg.SimpleTurtle()
-Scum = rg.SimpleTurtle()
-River.pen = rg.Pen('blue','10')
-Rosie.pen = rg.Pen('red','5')
-Scum.pen = rg.Pen('black','8')
+river = rg.SimpleTurtle()
+rosie = rg.SimpleTurtle()
+scum = rg.SimpleTurtle()
+river.pen = rg.Pen('blue', 10)
+rosie.pen = rg.Pen('red', 9)
+scum.pen = rg.Pen('black', 8)
+river.speed = 100000
+scum.speed = 1000000
+rosie.speed = 1000000
 
-size = 400
-for k in range(15):
-    River
+size = 50
+for k in range(25):
+    river.draw_regular_polygon(12, 50)
+    rosie.draw_regular_polygon(12, 40)
+    scum.draw_regular_polygon(11, 30)
 
+    scum.pen_up()
+    scum.right(90)
+    scum.forward(40)
+    scum.pen_down()
+
+    scum.forward(40)
+    scum.right(95)
+    scum.forward(20)
+    scum.left(43)
+    scum.forward(25)
+
+    river.pen_up()
+    river.forward(25)
+    river.pen_down()
+
+    river.forward(40)
+    river.right(30)
+    river.forward(20)
+    river.right(40)
+    river.forward(60)
+
+    rosie.right(100)
+    rosie.forward(38)
+    rosie.left(45)
+    rosie.forward(20)
 
 window.close_on_mouse_click()
